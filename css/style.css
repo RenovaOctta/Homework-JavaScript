@@ -1,0 +1,122 @@
+.jam_analog {
+  background: #e7f2f7;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 16px solid #52b6f0;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 2% auto 20px auto;
+}
+
+.xxx {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.jarum {
+  position: absolute;
+  width: 50%;
+  background: #232323;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+  -webkit-transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+  transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.lingkaran_tengah {
+  width: 24px;
+  height: 24px;
+  background: #232323;
+  border: 4px solid #52b6f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -14px;
+  margin-top: -14px;
+  border-radius: 50%;
+}
+
+.jarum_detik {
+  height: 2px;
+  border-radius: 1px;
+  background: #F0C952;
+}
+
+.jarum_menit {
+  height: 4px;
+  border-radius: 4px;
+}
+
+.jarum_jam {
+  height: 8px;
+  border-radius: 4px;
+  width: 35%;
+  left: 15%;
+}
+
+.header h3 {
+  position: absolute;
+  left: 508px;
+  top: 240px;
+}
+
+.option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.option p {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  font-style: bold;
+}
+
+.box1-option {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+
+.box2-option {
+  position: absolute;
+  left: 700px;
+  top: 300px;
+}
+
+.add {
+  position: relative;
+  top: 350px;
+  width: 800px;
+  margin: -17% auto 20px auto;
+}
+
+.hasil {
+  position: relative;
+  top: 350px;
+  width: 800px;
+  margin: 2% auto 20px auto;
+}
+
+.konversi {
+  position: relative;
+  top: 350px;
+  left: 650px;
+}
+
+.change-background {
+  position: relative;
+  top: 350px;
+  width: 500px;
+  margin: 2% auto 20px auto;
+}
+/*# sourceMappingURL=style.css.map */
